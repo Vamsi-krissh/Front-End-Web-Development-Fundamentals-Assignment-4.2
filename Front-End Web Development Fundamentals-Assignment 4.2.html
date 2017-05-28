@@ -4,29 +4,31 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-        #SpeechBubble { width: 120px; 
-        height: 80px; 
-        background: deepskyblue; 
-        position: relative;
-          border-radius: 10px;
-          margin-left: 20px; }
+      <style>
+      #outer{
+background-color: blue;
+height: 195px;
+width: 300px;
+position: relative;
 
-          #SpeechBubble:before {
-         content:""; 
-          position: absolute;
-           right: 100%; 
-           top: 15px; 
-           width: 0; 
-           height: 0; 
-           border-top: 13px solid transparent; 
-           border-right: 26px solid deepskyblue;
-            border-bottom: 13px solid transparent; } 
-        </style>
+      }
+      #inner{
+
+      background-color: red;
+    margin: 25px;
+    position: absolute;
+    padding: 15px;
+}
+
+         
+      }
+      </style>
     </head>
     <body>
-    <div id="SpeechBubble">
-        
+    <div id="outer">
+        <div id="inner">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+        </div>
     </div>
     </body>
 </html>
