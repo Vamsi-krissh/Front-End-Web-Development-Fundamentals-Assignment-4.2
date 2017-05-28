@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        #SpeechBubble { width: 120px; 
+        height: 80px; 
+        background: deepskyblue; 
+        position: relative;
+          border-radius: 10px;
+          margin-left: 20px; }
+
+          #SpeechBubble:before {
+         content:""; 
+          position: absolute;
+           right: 100%; 
+           top: 15px; 
+           width: 0; 
+           height: 0; 
+           border-top: 13px solid transparent; 
+           border-right: 26px solid deepskyblue;
+            border-bottom: 13px solid transparent; } 
+        </style>
+    </head>
+    <body>
+    <div id="SpeechBubble">
+        
+    </div>
+    </body>
+</html>
